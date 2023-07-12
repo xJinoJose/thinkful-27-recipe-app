@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/thinkful-27-recipe-app/static/css/main.ce930601.css",
+    "main.js": "/thinkful-27-recipe-app/static/js/main.c146dc22.js",
+    "index.html": "/thinkful-27-recipe-app/index.html",
+    "main.ce930601.css.map": "/thinkful-27-recipe-app/static/css/main.ce930601.css.map",
+    "main.c146dc22.js.map": "/thinkful-27-recipe-app/static/js/main.c146dc22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce930601.css",
+    "static/js/main.c146dc22.js"
+  ]
+}
