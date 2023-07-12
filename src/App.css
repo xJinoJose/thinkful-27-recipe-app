@@ -6,7 +6,8 @@
 
 label {
   display: inline-block;
-  width: 100px;
+  margin: auto;
+  width: 90%;
 }
 
 header {
@@ -57,6 +58,14 @@ table {
   max-height: 100px;
   overflow-y: auto;
   text-overflow: ellipsis;
+}
+
+textarea {
+  width: 100%;
+}
+
+input {
+  width: 100%;
 }
 
 /* Column Size for thead */

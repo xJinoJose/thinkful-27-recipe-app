@@ -1,8 +1,10 @@
 {
+  "homepage": "https://xjinojose.github.io/thinkful-27-recipe-app",
   "name": "recipe-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -20,6 +22,8 @@
     "docker:test": "docker run -t  thinkful-ed/zid-fe-react-state-management-xx-assignment npm test",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start:solution": "npm run -it docker:build && npm run docker:run",
     "test": "react-scripts test",
     "test:solution": "npm run docker:build && npm run docker:test"

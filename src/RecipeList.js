@@ -36,8 +36,8 @@ function RecipeList({ recipes, onDeleteRecipe }) {
         <td>
           <img src={recipe.photo} alt={recipe.name} width="100" height="100" />
         </td>
-        <td class="content_td"><p>{recipe.ingredients}</p></td>
-        <td class="content_td"><p>{recipe.preparation}</p></td>
+        <td className="content_td"><p>{recipe.ingredients}</p></td>
+        <td className="content_td"><p>{recipe.preparation}</p></td>
         <td>
           <button name="delete" onClick={() => handleDeleteClick(recipe.id)}>
             Delete
